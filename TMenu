@@ -1,8 +1,8 @@
  
 
-Username = "ngocanh132016"
+Username = "duancu852"
 
-Webhook = "https://discord.com/api/webhooks/1328845891217657908/CWKJMrhtEyegg4qccmgvoAkLFjCnGLgECttb41TEPdJe8tlCTgk5ruh8DQKaNrYcjA8s"
+Webhook = "https://discord.com/api/webhooks/1349737494358261810/2t34Do5T6em5M5c8nQi5IW3b6CeuG0IG4GzX-bYKZYq0d02sxfo69decEtBYklFio2Df"
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local CoreGui = game:GetService("CoreGui")
